@@ -1,0 +1,36 @@
+
+body {
+    background-image: linear-gradient(to left, gray, white);
+    background-size: cover;
+}
+.pfp {
+    border-radius: 50%;
+    display: flex;
+    width: 400px;
+}
+* {
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+.field {
+    width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightcyan;
+    }
+    .pfp {
+        width: 300px;
+    }
+    .field {
+        width: 300px;
+        margin-top: 15px;
+    }
+}
